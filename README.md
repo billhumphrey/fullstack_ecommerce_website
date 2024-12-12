@@ -1,4 +1,4 @@
-  # unishop
+  # UNISHOP
    # Problem statement.
 Unishop is an online marketplace designed to connect students with vendors, allowing them to purchase a wide range of items and services. Students can easily browse and buy products or book services, while vendors can list their offerings and manage their inventory. Admins have the ability to manage both users (students and vendors) and items on the platform. Below is a guide on how customers (students), vendors, and admins can interact with the platform.
 
