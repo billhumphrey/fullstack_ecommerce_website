@@ -1,0 +1,120 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    /* background-color: #35a4b8; */
+    background-color:  #d3d3d3;
+    /* background-image: url("../images/background.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-container{
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aqua !important;
+}
+.right-container{
+    width: 45vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:  #10111c !important;
+    margin-right: 20px;
+}
+.border{
+    /* background-color: rgb(209, 132, 17); */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.border .divider{
+    width: 20vw;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.border p{
+    margin: 0 5px;
+    font-size: 25px;
+}
+
+/* Adjust the styling as needed */
+
+.divider {
+    border-top: 5px dotted  #10111c;
+    margin: 10px 0;
+    /* Adjust spacing as needed */
+}
+
+.or-text {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+}
+
+#vendor-btn {
+    border-radius: 40px;
+    bottom: 10px;
+    color: #d3d3d3;
+    background-color: black;
+    font-size: 20px;
+    padding:20px 35px;
+}
+
+#customer-btn {
+    border-radius: 40px;
+    color: #d3d3d3;
+    background-color: black;
+    font-size: 20px;
+    padding:20px 35px;
+}
+
+#login-btn {
+    border-radius: 40px;
+    top: 150px;
+    color: #d3d3d3;
+    background-color: black;
+    font-size: 20px;
+    padding:20px 90px;
+}
+
+h2 {
+    color:  #10111c;
+}
+
+h1 {
+    color:  #10111c;
+}
+
+#image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 100px;
+    padding: 20px;
+}
+.change{
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+.change:hover{
+    cursor: pointer;
+    color: black !important;
+    background-color:  #8eeafa !important;
+    box-shadow: #0d080f 0px 10px 29px 0px;
+}

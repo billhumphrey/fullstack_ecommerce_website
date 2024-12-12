@@ -1,0 +1,27 @@
+
+.hidden-btn{
+    position: absolute;
+    left: 23%;
+    /* display: none !important; */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out !important;
+}
+.card:hover .hidden-btn{
+    opacity: 1;
+} 
+.card:hover .card-img-top{
+   opacity: 0.8 !important;
+} 
+
+.eye{
+    width:fit-content;
+     display:flex; 
+     margin-left:5px;  
+     justify-content: center; 
+     align-items: center;
+  }
+
+.eye:hover{
+    cursor: pointer;
+}
+

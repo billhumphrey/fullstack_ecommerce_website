@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: lastica;
+    src: url(../font/FontsFree-Net-Lastica.ttf);
+}
+@font-face {
+    font-family: noto;
+    src: url(../font/NotoSerif-Regular.ttf);
+}
+@font-face {
+    font-family: amagro;
+    src: url(../font/Amagro.ttf);
+}
+.showcase{
+    position: absolute;
+    right: 0;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 20;
+}
+.showcase video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -20;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #d3d3d3;
+    mix-blend-mode: hard-light;
+}
+.content{
+    width: 100vw;
+    align-content: center !important;
+    align-items: center !important;
+    z-index: 30;
+}
+.content h1{
+    padding-top: 30px;
+    font-family: lastica;
+    font-weight: 900;
+    font-size: 6em;
+    text-align: center;
+
+}
+.content p{
+    font-family:  amagro;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: lowercase;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.button{
+    background: black;
+    color: #d3d3d3;
+    border:#0d0320 2px solid;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: noto;
+    text-decoration: none;
+    padding: 10px 30px;
+    transition: 0.5s all ease;
+}
+.button:hover{
+ cursor: pointer;
+ border: none;
+ border-color: #b295f1;
+ background-color:  #d3d3d3 !important;
+ box-shadow: #0d080f 0px 10px 29px 0px;
+ color: #000;
+}

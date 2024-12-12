@@ -1,0 +1,368 @@
+p {
+    font-family: Dosis, Arial;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Arial;
+    font-weight: 600;
+    margin: 0;
+    /* background-color: #372264; */
+    background-color: #d3d3d3;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light; */
+    color: white;
+}
+
+.vendor-registration-title {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    z-index: 1;
+    padding-top: 2%;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.vendor-registration-text {
+    margin-left: 20%;
+    font-size: 350%;
+    color: rgb(5, 6, 7);
+}
+
+.vendor-registration-details {
+    position: absolute;
+    top: 12%;
+    bottom: 20%;
+    left: 1%;
+    right: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3%;
+    margin-top: 2%;
+}
+
+.sign-up-details {
+    background-color: #10111ccb;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.589);
+}
+
+
+
+.vendor-info {
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 35px;
+    margin-top: -5px;
+}
+
+.first-name-box,
+.last-name-box,
+.email-box,
+.phone-no-box,
+.password-box,
+.confirm-password-box,
+.business-name-box,
+.category-box,
+.description-box {
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    position: relative;
+    transition: background-color 0.2s, color 0.2s;
+}
+.text-box {
+    padding: 7px 10px;
+    background-color:  #d3d3d3 !important;
+    position: absolute;
+    margin-top: 20%;
+    height: 18%;
+    width: 70%;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.text-box:hover {
+    cursor: pointer;
+    background-color: rgba(204, 202, 202, 0.568);
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.568);
+}
+
+.first-name-box:hover,
+.last-name-box:hover,
+.email-box:hover,
+.phone-no-box:hover,
+.password-box:hover,
+.confirm-password-box:hover,
+.business-name-box:hover,
+.category-box:hover,
+.description-box:hover,
+.reg-number-box:hover {
+    background-color: rgba(0, 0, 0, 0.562);
+    color: rgb(132, 203, 226);
+}
+
+
+.business-details {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #10111ccb;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.589);
+}
+
+
+
+.business-details-title-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.business-details-title {
+    font-size: 45px;
+}
+
+.reg-number-box {
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    position: relative;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.reg-number-box .text-box {
+    height: 20%;
+    position: absolute;
+    bottom: 20%;
+}
+
+.reg-number {
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+}
+
+.business-details-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.description-box textarea {
+    position: absolute;
+    background-color:  #d3d3d3 !important;
+    bottom: 10%;
+    width: 70%;
+    border: none;
+    padding-left: 10px;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+.description-box textarea:hover{
+    background-color: rgba(204, 202, 202, 0.568);
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.568);
+    cursor: pointer;
+}
+
+.description {
+    font-size: 20px;
+    position: absolute;
+    margin-bottom: 2px;
+    margin-top: 10%;
+    top: 0;
+}
+select {
+    outline: 0;
+    border-radius: 9px;
+    background-color:  #d3d3d3 !important;
+    position: absolute;
+    margin-top: 20%;
+    padding: 10px 10px;
+    width: 70%;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: background-color 0.2s, box-shadow 0.2s;
+  }
+
+
+.sign-up-box {
+    position: absolute;
+    bottom: 10%;
+    left: 38%;
+    right: 40%;
+    width: 25%;
+}
+
+.sign-up-button {
+    border: none;
+    color:  #d3d3d3;
+    background-color: #10111ccb;
+    border-radius: 40px;
+    font-size: 18px;
+    width: 100%;
+    padding: 16px 80px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.sign-up-button:hover {
+    color: #10111ccb !important;
+    background-color:  #d3d3d3 !important;
+    box-shadow: #0d080f 0px 10px 29px 0px;
+}
+
+.login {
+    font-size: 15px;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    right: 40%;
+  }
+
+  .login a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.15s;
+  }
+
+  .login span {
+    color: lightskyblue;
+    font-size: 15px;
+    transition: text-decoration 0.15s;
+  }
+
+  .login span:hover {
+    text-decoration: underline;
+  }
+
+  .login span:active {
+    font-style: italic;
+  }
+
+@media (min-width: 1100px) {
+    .vendor-registration-details {
+        position: absolute;
+        top: 10%;
+        bottom: 20%;
+        left: 5%;
+        right: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5%;
+        margin-top: 2%;
+        
+    }
+
+    .sign-up-details {
+        width: 100%;
+    }
+
+    .business-details {
+        width: 100%;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 900px) {
+    .sign-up-button {
+        padding: 15px 50px;
+    }
+}
+
+@media (max-width: 840px) {
+    .business-details-title {
+        font-size: 35px;
+    }
+    .vendor-info,
+    .reg-number,
+    .description {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 750px) {
+    body {
+        height: 1300px;
+    }
+
+    .vendor-registration-details {
+        position: absolute;
+        top: 12%;
+        bottom: -17%;
+        left: 5%;
+        right: 5%;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 5%;
+        margin-top: 2%;
+        
+    }
+
+    .sign-up-box {
+        position: absolute;
+        bottom: -25%;
+        left: 40%;
+        right: 38%;
+        display: flexbox;
+        width: 110px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sign-up-details {
+        width: 100%;
+    }
+
+    .business-details {
+        width: 100%;
+        margin: 5px;
+    }
+
+    .sign-up-button {
+        padding: 10px 20px;
+    }
+
+    .login {
+        bottom: -32%;
+        left: 32%;
+        right: 35%;
+    }
+}

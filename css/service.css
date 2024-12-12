@@ -1,0 +1,124 @@
+header img {
+    width: 100px; 
+    border-radius: 50%;
+    padding: 10px;
+}
+
+header h1 {
+    margin-top: 10% !important;
+    color: aqua !important;
+}
+header {
+    /* background-color: #1d0452; */
+    /* background-color: #390567; */
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.back{
+    background-color: #d3d3d3;
+}
+
+nav{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+ }
+
+ .user-icon {
+    font-size: 25px;
+    vertical-align: top;
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+main{
+    display: flex;
+}
+.image{
+    width: 50vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width: 60%;
+    box-shadow: rgba(192, 175, 175, 0.25) 0px 54px 55px, rgba(192, 175, 175, 0.25) 0px -12px 30px, rgba(192, 175, 175, 0.25) 0px 4px 6px, rgba(192, 175, 175, 0.25) 0px 12px 13px, rgba(192, 175, 175, 0.25) 0px -3px 5px;
+   
+}
+.content{
+    width: 50vw;
+    height: 85vh;
+}
+.content ul{
+    list-style: none;
+    padding-top: 20px;
+
+}
+.content li{
+    margin-top: 20px;
+    color: #000;
+}
+.btn{
+    padding: 20px 50px !important;
+    background-color: rgba(0, 0, 0, 0.411) !important;
+    border: none !important;
+    border-radius: 10px !important;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: black !important;
+    box-shadow: 0 0 20px rgba(245, 235, 235, 0.9);
+}
+.content .button{
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+}
+.button .now{
+    margin-left: 10%;
+}
+.amount{
+    background-color: rgba(0, 0, 0, 0.411);
+    width: fit-content;
+    color: #d3d3d3;
+    font-size: 20px;
+    border: none;
+    border-radius: 10%;
+    padding: 0px 25px;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out;
+}
+.amount:hover{
+    color: #000;
+}
+span{
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+}
+.description{
+    height: 250px;
+}
+
+footer {
+    background-color: #d3d3d3;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}

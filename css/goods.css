@@ -1,0 +1,218 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3;
+    position: relative;
+}
+.back{
+    background-color: #d3d3d3;
+    /* display: grid; */
+    /* grid-template-rows: 110px 50px 1fr 1fr; */
+    overflow-x: hidden;
+}
+.logo{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-left: 10px !important;
+}
+
+header img {
+    width: 100px; 
+    border-radius: 50%;
+    padding: 10px;
+}
+
+header h1 {
+    margin-top: 15% !important;
+    color: #000 !important;
+}
+h2{
+    /* color: #fff;
+    position: relative; */
+    padding-right: 10%;
+    margin-top: -36vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: large;
+}
+
+.search-box {
+    margin-left: 50%;
+    padding-top: 20px;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.search{
+    border-top-left-radius: 15px !important; 
+    border-top-right-radius: 0 !important; 
+    border-bottom-left-radius: 15px !important; 
+    border-bottom-right-radius: 0!important; 
+    border-right: none !important;
+}
+.search-b{
+    border-top-left-radius: 0 !important; 
+    border-top-right-radius: 15px !important; 
+    border-bottom-left-radius: 0 !important; 
+    border-bottom-right-radius: 15px !important; 
+    border-left: none !important;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.411);
+    /* background-color: #390567; */
+    /* color: #000; */
+    padding: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    position:  relative;
+}
+
+header h1 {
+    margin-left: 10%;
+    color: #000;
+    align-self: flex-start;
+}
+
+nav{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+    vertical-align: middle;
+ }
+
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #d3d3d3;
+}
+
+main {
+    height: fit-content !important;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+}
+footer {
+    background-color: #d3d3d3;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+.user-icon {
+    font-size: 25px;
+    vertical-align: top;
+}
+.products{
+    height: auto;
+}
+/*card sections*/
+.media-scroller{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px; 
+     /* background-color: #020101; */
+    /* height: 100%; */
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns:16%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: var(2rem);
+}
+.media-scroller > *{
+    scroll-snap-align: start;
+}
+.card{
+    border-radius: 10px;
+    background-color: #000 !important;
+    color: #d3d3d3 !important;
+    transition: box-shadow 0.3s ease-in-out;
+    transition: all 0.3s ease;
+ }
+ .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 2px 2px 20px 4px !important;
+ }
+
+  
+ .card-btn{
+    background-color: #d3d3d3 !important;
+    color: black !important;
+    border: none !important;
+    /* background-image: linear-gradient(180deg, #533497, rgb(11, 12, 12)); */
+    transition:0.3s ease-in-out;
+ }
+ .card-btn:hover{
+    font-weight: 900;
+    cursor: pointer;
+    color: black !important;
+    /* background-image: linear-gradient(180deg, #f1eff5, #533497); */
+}
+
+
+
+/* Add this CSS for responsiveness */
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 10px 0;
+    }
+
+    nav ul {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    nav li {
+        margin: 0 5px;
+    }
+
+    .products, .services {
+        justify-content: center;
+    }
+
+    .product, .service {
+        width: 45%;
+        margin: 10px 0;
+    }
+
+    .product img, .service img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .view-all-link {
+        margin: 10px 0;
+    }
+}
